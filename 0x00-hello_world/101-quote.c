@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
 * main - Prints quote message
@@ -7,8 +7,8 @@
 */
 int main(void)
 {
-    char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	print("%s\n", message);
+	char message[] = "and that piece of art is useful\" \
+- Dora Korpar, 2015-10-19";
+	printf("%s\n", message);
 	return (1);
 }
-
