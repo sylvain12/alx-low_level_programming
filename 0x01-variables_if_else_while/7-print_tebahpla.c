@@ -11,7 +11,7 @@ int main(void)
 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
-	for (i = 26; i > 0; i--)
+	for (i = 25; i >= 0; i--)
 		putchar(alphabet[i]);
 	putchar('\n');
 	return (0);
