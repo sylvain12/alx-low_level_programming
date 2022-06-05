@@ -2,7 +2,7 @@
 
 /**
 * main -  Prints possible value of 3 digits
-* Reteurn: 0
+* Return: 0
 */
 int main(void)
 {
