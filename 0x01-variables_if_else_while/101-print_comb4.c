@@ -20,16 +20,11 @@ int main(void)
 			{
 				if (i != j && j != y && i != y && i < j && j < y)
 				{
-					if (i == 7 && j == 8 && y == 9)
+					putchar(num[i]);
+					putchar(num[j]);
+					putchar(num[y]);
+					if (i != 7 ||  j != 8 || y != 9)
 					{
-						putchar(num[i]);
-						putchar(num[j]);
-						putchar(num[y]);
-					} else
-					{
-						putchar(num[i]);
-						putchar(num[j]);
-						putchar(num[y]);
 						putchar(',');
 						putchar(' ');
 					}
