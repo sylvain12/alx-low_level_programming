@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i, j, k, l;
-	int nums[10] = {'0', '2', '3', '4',
+	int nums[10] = {'0', '1', '2', '3', '4',
 '5', '6', '7', '8', '9'};
 
 	for (i = 0; i < 10; i++)
@@ -20,11 +20,11 @@ int main(void)
 				{
 					if (j != l && j < 9)
 					{
-						putchar(nums[i]);
-						putchar(nums[j]);
-						putchar(' ');
-						putchar(nums[k]);
-						putchar(nums[l]);
+					putchar(nums[i]);
+					putchar(nums[j]);
+					putchar(' ');
+					putchar(nums[k]);
+					putchar(nums[l]);
 						if (i != 9 || j != 8 || k != 9 || l != 9)
 						{
 							putchar(',');
