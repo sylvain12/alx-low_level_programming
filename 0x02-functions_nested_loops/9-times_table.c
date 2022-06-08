@@ -4,7 +4,7 @@
 /**
 * times_table - Sum to number
 */
-char number_charracter(int n);
+char number_character(int n);
 
 void  times_table(void)
 {
@@ -16,7 +16,7 @@ void  times_table(void)
 		while (j < 10)
 		{
 			int	r  = (i * j);
-			_putchar(number_charracter(r));
+			_putchar(number_character(r));
 			if (j != 9)
 			{
 				_putchar(',');
@@ -29,10 +29,10 @@ void  times_table(void)
 	}
 }
 
-char number_charracter(int n)
+char number_character(int n)
 {
 	int i;
-	char nums[82] = {'0', '1', '2', '3', '4', '5', '6',
+	int nums[] = {'0', '1', '2', '3', '4', '5', '6',
 '7', '8', '9', '10', '11', '12', '13', '14', '15', '16',
 '17', '18', '19', '20', '21', '22', '23', '24', '25',
 '26', '27', '28', '29', '30', '31', '32', '33', '34',
