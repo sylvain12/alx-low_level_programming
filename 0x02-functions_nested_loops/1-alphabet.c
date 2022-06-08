@@ -2,15 +2,9 @@
 #include "main.h"
 
 /**
-* main - Prints alphabet
+* print_alphabet - Prints alphabet
 * Return: 0
 */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet()
 {
 	char i;
