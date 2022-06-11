@@ -22,19 +22,19 @@ int largest_number(int a, int b, int c)
 	}
 	else if (a > c && c > b)
 	{
-		largest = a
+		largest = a;
 	}
 	else if (b > c && c > a)
 	{
-		largest = b
+		largest = b;
 	}
 	else if (a > b && a > c)
 	{
-		largest = a
+		largest = a;
 	}
 	else if (b > a && b > c)
 	{
-		largest = b
+		largest = b;
 	}
 	else
 	{
