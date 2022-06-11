@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
 
 /**
 * _isupper - Check for upper character
